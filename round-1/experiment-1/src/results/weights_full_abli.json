@@ -1,0 +1,665 @@
+{
+ "tag": "abli",
+ "repo": "mlabonne/Qwen3-4B-abliterated",
+ "per_layer": {
+  "0": {
+   "o_proj": {
+    "top1_energy": 0.01535929595886597,
+    "sigma1_sigma2": 1.7407203623656926,
+    "participation_ratio": 985.7078857421875,
+    "stable_rank": 65.10715091877385,
+    "n_layers_effective": 4940.3095703125,
+    "column_norm_entropy": 8.304807662963867
+   },
+   "down_proj": {
+    "top1_energy": 0.006577562467344563,
+    "sigma1_sigma2": 1.7154231183629107,
+    "participation_ratio": 1682.7939453125,
+    "stable_rank": 152.032003491365,
+    "n_layers_effective": 13490.916015625,
+    "column_norm_entropy": 9.182191848754883
+   }
+  },
+  "1": {
+   "o_proj": {
+    "top1_energy": 0.00596609135275831,
+    "sigma1_sigma2": 1.1338840141776023,
+    "participation_ratio": 939.0214233398438,
+    "stable_rank": 167.61392692012146,
+    "n_layers_effective": 5065.763671875,
+    "column_norm_entropy": 8.310482025146484
+   },
+   "down_proj": {
+    "top1_energy": 0.0463778445298289,
+    "sigma1_sigma2": 2.7049188546431955,
+    "participation_ratio": 355.6547546386719,
+    "stable_rank": 21.562019756153795,
+    "n_layers_effective": 6752.41943359375,
+    "column_norm_entropy": 8.981264114379883
+   }
+  },
+  "2": {
+   "o_proj": {
+    "top1_energy": 0.004685279851156666,
+    "sigma1_sigma2": 1.028817406378245,
+    "participation_ratio": 915.9669189453125,
+    "stable_rank": 213.4344226531373,
+    "n_layers_effective": 5305.16650390625,
+    "column_norm_entropy": 8.314645767211914
+   },
+   "down_proj": {
+    "top1_energy": 0.023713887143405665,
+    "sigma1_sigma2": 1.748267401244045,
+    "participation_ratio": 713.9283447265625,
+    "stable_rank": 42.16938344830063,
+    "n_layers_effective": 6808.5576171875,
+    "column_norm_entropy": 8.880359649658203
+   }
+  },
+  "3": {
+   "o_proj": {
+    "top1_energy": 0.004513229791721642,
+    "sigma1_sigma2": 1.0129347172238057,
+    "participation_ratio": 932.0912475585938,
+    "stable_rank": 221.57081428343017,
+    "n_layers_effective": 5373.55078125,
+    "column_norm_entropy": 8.312285423278809
+   },
+   "down_proj": {
+    "top1_energy": 0.013283148362200365,
+    "sigma1_sigma2": 1.7171682208889816,
+    "participation_ratio": 1297.6505126953125,
+    "stable_rank": 75.28335698227112,
+    "n_layers_effective": 9109.318359375,
+    "column_norm_entropy": 9.056174278259277
+   }
+  },
+  "4": {
+   "o_proj": {
+    "top1_energy": 0.005137236981564016,
+    "sigma1_sigma2": 1.2061393451308873,
+    "participation_ratio": 1062.4913330078125,
+    "stable_rank": 194.6571675764027,
+    "n_layers_effective": 5616.9873046875,
+    "column_norm_entropy": 8.315160751342773
+   },
+   "down_proj": {
+    "top1_energy": 0.005055939486898107,
+    "sigma1_sigma2": 1.1348274883267322,
+    "participation_ratio": 1747.539794921875,
+    "stable_rank": 197.78717735672797,
+    "n_layers_effective": 10670.794921875,
+    "column_norm_entropy": 9.173469543457031
+   }
+  },
+  "5": {
+   "o_proj": {
+    "top1_energy": 0.005768814373697618,
+    "sigma1_sigma2": 1.1619417353269017,
+    "participation_ratio": 983.0399169921875,
+    "stable_rank": 173.34584460880015,
+    "n_layers_effective": 5228.17578125,
+    "column_norm_entropy": 8.311317443847656
+   },
+   "down_proj": {
+    "top1_energy": 0.004834941484913994,
+    "sigma1_sigma2": 1.4753814023077463,
+    "participation_ratio": 1719.647705078125,
+    "stable_rank": 206.82773578960663,
+    "n_layers_effective": 11368.345703125,
+    "column_norm_entropy": 9.181098937988281
+   }
+  },
+  "6": {
+   "o_proj": {
+    "top1_energy": 0.016206084330170276,
+    "sigma1_sigma2": 2.435698454655673,
+    "participation_ratio": 920.0130615234375,
+    "stable_rank": 61.7052200659191,
+    "n_layers_effective": 5559.94482421875,
+    "column_norm_entropy": 8.313512802124023
+   },
+   "down_proj": {
+    "top1_energy": 0.0031186658581021155,
+    "sigma1_sigma2": 1.2235519872710032,
+    "participation_ratio": 1805.6461181640625,
+    "stable_rank": 320.6499334970616,
+    "n_layers_effective": 12220.248046875,
+    "column_norm_entropy": 9.181713104248047
+   }
+  },
+  "7": {
+   "o_proj": {
+    "top1_energy": 0.005235577728131895,
+    "sigma1_sigma2": 1.00977092345825,
+    "participation_ratio": 987.3158569335938,
+    "stable_rank": 191.00088890415725,
+    "n_layers_effective": 5429.5126953125,
+    "column_norm_entropy": 8.309085845947266
+   },
+   "down_proj": {
+    "top1_energy": 0.003069996110485122,
+    "sigma1_sigma2": 1.1077704087469957,
+    "participation_ratio": 1728.258544921875,
+    "stable_rank": 325.7333117083264,
+    "n_layers_effective": 12388.38671875,
+    "column_norm_entropy": 9.18150520324707
+   }
+  },
+  "8": {
+   "o_proj": {
+    "top1_energy": 0.003873976971124804,
+    "sigma1_sigma2": 1.0157817915769125,
+    "participation_ratio": 1087.7257080078125,
+    "stable_rank": 258.1326650761301,
+    "n_layers_effective": 5691.36767578125,
+    "column_norm_entropy": 8.313923835754395
+   },
+   "down_proj": {
+    "top1_energy": 0.003316888646726703,
+    "sigma1_sigma2": 1.0474924633120732,
+    "participation_ratio": 1674.575927734375,
+    "stable_rank": 301.48735954306386,
+    "n_layers_effective": 13141.2705078125,
+    "column_norm_entropy": 9.181568145751953
+   }
+  },
+  "9": {
+   "o_proj": {
+    "top1_energy": 0.004106567019853322,
+    "sigma1_sigma2": 1.0197736320851034,
+    "participation_ratio": 980.1907958984375,
+    "stable_rank": 243.51240224875664,
+    "n_layers_effective": 5586.55224609375,
+    "column_norm_entropy": 8.30685806274414
+   },
+   "down_proj": {
+    "top1_energy": 0.002835433975428225,
+    "sigma1_sigma2": 1.0726781166161696,
+    "participation_ratio": 1740.616455078125,
+    "stable_rank": 352.67969865141146,
+    "n_layers_effective": 11798.7412109375,
+    "column_norm_entropy": 9.18051528930664
+   }
+  },
+  "10": {
+   "o_proj": {
+    "top1_energy": 0.005301734237043845,
+    "sigma1_sigma2": 1.3208903202644608,
+    "participation_ratio": 1066.7872314453125,
+    "stable_rank": 188.6175268863689,
+    "n_layers_effective": 5808.64404296875,
+    "column_norm_entropy": 8.31022834777832
+   },
+   "down_proj": {
+    "top1_energy": 0.0030468020510312855,
+    "sigma1_sigma2": 1.1863226856999587,
+    "participation_ratio": 1834.9996337890625,
+    "stable_rank": 328.212986354502,
+    "n_layers_effective": 12405.916015625,
+    "column_norm_entropy": 9.180707931518555
+   }
+  },
+  "11": {
+   "o_proj": {
+    "top1_energy": 0.003979341659424549,
+    "sigma1_sigma2": 1.141329689787245,
+    "participation_ratio": 1134.0498046875,
+    "stable_rank": 251.2978491383446,
+    "n_layers_effective": 5675.28369140625,
+    "column_norm_entropy": 8.308682441711426
+   },
+   "down_proj": {
+    "top1_energy": 0.0028819353765022157,
+    "sigma1_sigma2": 1.133212861336883,
+    "participation_ratio": 1759.606201171875,
+    "stable_rank": 346.98904359670024,
+    "n_layers_effective": 12975.625,
+    "column_norm_entropy": 9.18073844909668
+   }
+  },
+  "12": {
+   "o_proj": {
+    "top1_energy": 0.00411425136064288,
+    "sigma1_sigma2": 1.1646643248402706,
+    "participation_ratio": 1064.46923828125,
+    "stable_rank": 243.0575850484116,
+    "n_layers_effective": 5570.14599609375,
+    "column_norm_entropy": 8.311206817626953
+   },
+   "down_proj": {
+    "top1_energy": 0.0031624942143092688,
+    "sigma1_sigma2": 1.2337543621835392,
+    "participation_ratio": 1713.4573974609375,
+    "stable_rank": 316.20611208561957,
+    "n_layers_effective": 13273.166015625,
+    "column_norm_entropy": 9.179821014404297
+   }
+  },
+  "13": {
+   "o_proj": {
+    "top1_energy": 0.004117648475147287,
+    "sigma1_sigma2": 1.0197429045145323,
+    "participation_ratio": 995.6650390625,
+    "stable_rank": 242.8570593229745,
+    "n_layers_effective": 5317.0478515625,
+    "column_norm_entropy": 8.309486389160156
+   },
+   "down_proj": {
+    "top1_energy": 0.003202656591734674,
+    "sigma1_sigma2": 1.1217117590284116,
+    "participation_ratio": 1663.0118408203125,
+    "stable_rank": 312.2407824119426,
+    "n_layers_effective": 13431.015625,
+    "column_norm_entropy": 9.178018569946289
+   }
+  },
+  "14": {
+   "o_proj": {
+    "top1_energy": 0.003697804317418038,
+    "sigma1_sigma2": 1.0592192773235176,
+    "participation_ratio": 1146.2017822265625,
+    "stable_rank": 270.4307513757899,
+    "n_layers_effective": 5176.8408203125,
+    "column_norm_entropy": 8.309823989868164
+   },
+   "down_proj": {
+    "top1_energy": 0.004534615181224864,
+    "sigma1_sigma2": 1.0949386116939284,
+    "participation_ratio": 1668.014892578125,
+    "stable_rank": 220.52587927205013,
+    "n_layers_effective": 13136.951171875,
+    "column_norm_entropy": 9.177413940429688
+   }
+  },
+  "15": {
+   "o_proj": {
+    "top1_energy": 0.004012661810843782,
+    "sigma1_sigma2": 1.0307404933598159,
+    "participation_ratio": 992.7388305664062,
+    "stable_rank": 249.21113394047035,
+    "n_layers_effective": 4883.9375,
+    "column_norm_entropy": 8.311759948730469
+   },
+   "down_proj": {
+    "top1_energy": 0.005173131291047046,
+    "sigma1_sigma2": 1.2082360472777283,
+    "participation_ratio": 1594.0042724609375,
+    "stable_rank": 193.30651857428487,
+    "n_layers_effective": 12925.3662109375,
+    "column_norm_entropy": 9.177286148071289
+   }
+  },
+  "16": {
+   "o_proj": {
+    "top1_energy": 0.00560526997454566,
+    "sigma1_sigma2": 1.1530270255329964,
+    "participation_ratio": 992.6506958007812,
+    "stable_rank": 178.4035389091238,
+    "n_layers_effective": 5177.20068359375,
+    "column_norm_entropy": 8.310583114624023
+   },
+   "down_proj": {
+    "top1_energy": 0.007562555458985862,
+    "sigma1_sigma2": 1.6666587752735926,
+    "participation_ratio": 1587.7125244140625,
+    "stable_rank": 132.23043525740968,
+    "n_layers_effective": 12517.6083984375,
+    "column_norm_entropy": 9.177131652832031
+   }
+  },
+  "17": {
+   "o_proj": {
+    "top1_energy": 0.006493123415011491,
+    "sigma1_sigma2": 1.40308615509647,
+    "participation_ratio": 1052.39013671875,
+    "stable_rank": 154.00908562558567,
+    "n_layers_effective": 5011.8505859375,
+    "column_norm_entropy": 8.308492660522461
+   },
+   "down_proj": {
+    "top1_energy": 0.005535290645548891,
+    "sigma1_sigma2": 1.4800317976622401,
+    "participation_ratio": 1617.086181640625,
+    "stable_rank": 180.65898685991002,
+    "n_layers_effective": 12595.900390625,
+    "column_norm_entropy": 9.176618576049805
+   }
+  },
+  "18": {
+   "o_proj": {
+    "top1_energy": 0.005041704077896506,
+    "sigma1_sigma2": 1.1889554738362642,
+    "participation_ratio": 936.3601684570312,
+    "stable_rank": 198.34563563223227,
+    "n_layers_effective": 4998.2685546875,
+    "column_norm_entropy": 8.306946754455566
+   },
+   "down_proj": {
+    "top1_energy": 0.005641262209884254,
+    "sigma1_sigma2": 1.3759175447464398,
+    "participation_ratio": 1556.9327392578125,
+    "stable_rank": 177.26529326147343,
+    "n_layers_effective": 12580.259765625,
+    "column_norm_entropy": 9.176933288574219
+   }
+  },
+  "19": {
+   "o_proj": {
+    "top1_energy": 0.004066198061885556,
+    "sigma1_sigma2": 1.129803808039909,
+    "participation_ratio": 1036.0191650390625,
+    "stable_rank": 245.92997802381652,
+    "n_layers_effective": 5091.5556640625,
+    "column_norm_entropy": 8.305818557739258
+   },
+   "down_proj": {
+    "top1_energy": 0.005199271654525584,
+    "sigma1_sigma2": 1.3608595902981813,
+    "participation_ratio": 1560.9598388671875,
+    "stable_rank": 192.33463193437365,
+    "n_layers_effective": 12564.2783203125,
+    "column_norm_entropy": 9.176788330078125
+   }
+  },
+  "20": {
+   "o_proj": {
+    "top1_energy": 0.004891026771548429,
+    "sigma1_sigma2": 1.1976872232032605,
+    "participation_ratio": 977.7508544921875,
+    "stable_rank": 204.45604710591562,
+    "n_layers_effective": 4861.03564453125,
+    "column_norm_entropy": 8.308300018310547
+   },
+   "down_proj": {
+    "top1_energy": 0.0038026149655112935,
+    "sigma1_sigma2": 1.0773355761666792,
+    "participation_ratio": 1583.7388916015625,
+    "stable_rank": 262.97692747483876,
+    "n_layers_effective": 12761.48046875,
+    "column_norm_entropy": 9.176197052001953
+   }
+  },
+  "21": {
+   "o_proj": {
+    "top1_energy": 0.004815096073162238,
+    "sigma1_sigma2": 1.0900001579555687,
+    "participation_ratio": 936.3258056640625,
+    "stable_rank": 207.6801760142796,
+    "n_layers_effective": 4701.18505859375,
+    "column_norm_entropy": 8.307011604309082
+   },
+   "down_proj": {
+    "top1_energy": 0.0037014443581508995,
+    "sigma1_sigma2": 1.0491304677482425,
+    "participation_ratio": 1595.2705078125,
+    "stable_rank": 270.16480682680367,
+    "n_layers_effective": 12955.79296875,
+    "column_norm_entropy": 9.175752639770508
+   }
+  },
+  "22": {
+   "o_proj": {
+    "top1_energy": 0.0037718893826414203,
+    "sigma1_sigma2": 1.1317338085293855,
+    "participation_ratio": 1001.5326538085938,
+    "stable_rank": 265.1191216269733,
+    "n_layers_effective": 4915.97119140625,
+    "column_norm_entropy": 8.305299758911133
+   },
+   "down_proj": {
+    "top1_energy": 0.003692899445284413,
+    "sigma1_sigma2": 1.2133438219090917,
+    "participation_ratio": 1752.61767578125,
+    "stable_rank": 270.78993479687983,
+    "n_layers_effective": 13069.7607421875,
+    "column_norm_entropy": 9.174820899963379
+   }
+  },
+  "23": {
+   "o_proj": {
+    "top1_energy": 0.0032962242511479357,
+    "sigma1_sigma2": 1.1835210360595714,
+    "participation_ratio": 1169.88037109375,
+    "stable_rank": 303.3774172530107,
+    "n_layers_effective": 5261.0146484375,
+    "column_norm_entropy": 8.307676315307617
+   },
+   "down_proj": {
+    "top1_energy": 0.00305632970845418,
+    "sigma1_sigma2": 1.240535478401214,
+    "participation_ratio": 1796.58544921875,
+    "stable_rank": 327.1898307417156,
+    "n_layers_effective": 13223.927734375,
+    "column_norm_entropy": 9.176149368286133
+   }
+  },
+  "24": {
+   "o_proj": {
+    "top1_energy": 0.00438876917656231,
+    "sigma1_sigma2": 1.0094377718023904,
+    "participation_ratio": 915.1235961914062,
+    "stable_rank": 227.85431627171891,
+    "n_layers_effective": 5433.7392578125,
+    "column_norm_entropy": 8.303409576416016
+   },
+   "down_proj": {
+    "top1_energy": 0.0030004420406181723,
+    "sigma1_sigma2": 1.3469059698485215,
+    "participation_ratio": 1861.809326171875,
+    "stable_rank": 333.2842249450594,
+    "n_layers_effective": 13447.2119140625,
+    "column_norm_entropy": 9.177789688110352
+   }
+  },
+  "25": {
+   "o_proj": {
+    "top1_energy": 0.0023965941925355094,
+    "sigma1_sigma2": 1.0557092469483147,
+    "participation_ratio": 1295.73779296875,
+    "stable_rank": 417.25879296320767,
+    "n_layers_effective": 5290.90966796875,
+    "column_norm_entropy": 8.311735153198242
+   },
+   "down_proj": {
+    "top1_energy": 0.002571604816560046,
+    "sigma1_sigma2": 1.2170210609326628,
+    "participation_ratio": 1872.5704345703125,
+    "stable_rank": 388.86223635934397,
+    "n_layers_effective": 13559.603515625,
+    "column_norm_entropy": 9.178510665893555
+   }
+  },
+  "26": {
+   "o_proj": {
+    "top1_energy": 0.0025051259067385306,
+    "sigma1_sigma2": 1.0458253965179862,
+    "participation_ratio": 1262.6220703125,
+    "stable_rank": 399.18153307588375,
+    "n_layers_effective": 5530.02001953125,
+    "column_norm_entropy": 8.307405471801758
+   },
+   "down_proj": {
+    "top1_energy": 0.002288773812448929,
+    "sigma1_sigma2": 1.2176672399262094,
+    "participation_ratio": 1854.561767578125,
+    "stable_rank": 436.9151702806429,
+    "n_layers_effective": 13896.66796875,
+    "column_norm_entropy": 9.179229736328125
+   }
+  },
+  "27": {
+   "o_proj": {
+    "top1_energy": 0.003246734673996231,
+    "sigma1_sigma2": 1.0891966273234204,
+    "participation_ratio": 1239.63720703125,
+    "stable_rank": 308.0017618961003,
+    "n_layers_effective": 5293.51416015625,
+    "column_norm_entropy": 8.309202194213867
+   },
+   "down_proj": {
+    "top1_energy": 0.0021864100371105275,
+    "sigma1_sigma2": 1.0106992867316256,
+    "participation_ratio": 1838.4051513671875,
+    "stable_rank": 457.37075069485144,
+    "n_layers_effective": 14216.005859375,
+    "column_norm_entropy": 9.179411888122559
+   }
+  },
+  "28": {
+   "o_proj": {
+    "top1_energy": 0.002495852718713845,
+    "sigma1_sigma2": 1.0351821002889017,
+    "participation_ratio": 1256.8408203125,
+    "stable_rank": 400.6646676312362,
+    "n_layers_effective": 5248.04931640625,
+    "column_norm_entropy": 8.311408996582031
+   },
+   "down_proj": {
+    "top1_energy": 0.0023535361244088828,
+    "sigma1_sigma2": 1.1300442406268139,
+    "participation_ratio": 1814.0797119140625,
+    "stable_rank": 424.8925646939714,
+    "n_layers_effective": 14549.302734375,
+    "column_norm_entropy": 9.179328918457031
+   }
+  },
+  "29": {
+   "o_proj": {
+    "top1_energy": 0.0024256479892997597,
+    "sigma1_sigma2": 1.0263264674076713,
+    "participation_ratio": 1226.9962158203125,
+    "stable_rank": 412.26097290756593,
+    "n_layers_effective": 5662.703125,
+    "column_norm_entropy": 8.30916976928711
+   },
+   "down_proj": {
+    "top1_energy": 0.002570393815499646,
+    "sigma1_sigma2": 1.0686126082627745,
+    "participation_ratio": 1771.393798828125,
+    "stable_rank": 389.04544275275384,
+    "n_layers_effective": 15038.8642578125,
+    "column_norm_entropy": 9.179716110229492
+   }
+  },
+  "30": {
+   "o_proj": {
+    "top1_energy": 0.003279406638702271,
+    "sigma1_sigma2": 1.3458484026032325,
+    "participation_ratio": 1376.913818359375,
+    "stable_rank": 304.9332120629361,
+    "n_layers_effective": 5567.20751953125,
+    "column_norm_entropy": 8.310164451599121
+   },
+   "down_proj": {
+    "top1_energy": 0.0035862379318781575,
+    "sigma1_sigma2": 1.1265844028735532,
+    "participation_ratio": 1688.8681640625,
+    "stable_rank": 278.84374070972126,
+    "n_layers_effective": 15424.826171875,
+    "column_norm_entropy": 9.179910659790039
+   }
+  },
+  "31": {
+   "o_proj": {
+    "top1_energy": 0.003118033831222447,
+    "sigma1_sigma2": 1.044978964129235,
+    "participation_ratio": 1345.83056640625,
+    "stable_rank": 320.7149293848242,
+    "n_layers_effective": 5903.60205078125,
+    "column_norm_entropy": 8.310792922973633
+   },
+   "down_proj": {
+    "top1_energy": 0.002973158806976699,
+    "sigma1_sigma2": 1.0109305737400567,
+    "participation_ratio": 1611.5604248046875,
+    "stable_rank": 336.3426123264721,
+    "n_layers_effective": 16031.6015625,
+    "column_norm_entropy": 9.180198669433594
+   }
+  },
+  "32": {
+   "o_proj": {
+    "top1_energy": 0.0039749466240863035,
+    "sigma1_sigma2": 1.1284631541665318,
+    "participation_ratio": 1260.4232177734375,
+    "stable_rank": 251.57570517814534,
+    "n_layers_effective": 5882.0302734375,
+    "column_norm_entropy": 8.307866096496582
+   },
+   "down_proj": {
+    "top1_energy": 0.0021209190954775397,
+    "sigma1_sigma2": 1.01786093993796,
+    "participation_ratio": 1685.5654296875,
+    "stable_rank": 471.4937039004984,
+    "n_layers_effective": 16065.21484375,
+    "column_norm_entropy": 9.180231094360352
+   }
+  },
+  "33": {
+   "o_proj": {
+    "top1_energy": 0.004338408810032294,
+    "sigma1_sigma2": 1.4121919780819463,
+    "participation_ratio": 1329.4566650390625,
+    "stable_rank": 230.49925532318753,
+    "n_layers_effective": 6392.63671875,
+    "column_norm_entropy": 8.310836791992188
+   },
+   "down_proj": {
+    "top1_energy": 0.0025035325803492506,
+    "sigma1_sigma2": 1.176507495026966,
+    "participation_ratio": 1770.957275390625,
+    "stable_rank": 399.43558468110564,
+    "n_layers_effective": 15708.9169921875,
+    "column_norm_entropy": 9.179211616516113
+   }
+  },
+  "34": {
+   "o_proj": {
+    "top1_energy": 0.004957583264665463,
+    "sigma1_sigma2": 1.025300106237512,
+    "participation_ratio": 1140.64599609375,
+    "stable_rank": 201.7111859980994,
+    "n_layers_effective": 6096.2978515625,
+    "column_norm_entropy": 8.30804443359375
+   },
+   "down_proj": {
+    "top1_energy": 0.008130138544047913,
+    "sigma1_sigma2": 2.1094346326751423,
+    "participation_ratio": 1687.260009765625,
+    "stable_rank": 122.99913397319675,
+    "n_layers_effective": 14038.8564453125,
+    "column_norm_entropy": 9.174600601196289
+   }
+  },
+  "35": {
+   "o_proj": {
+    "top1_energy": 0.010714059396001273,
+    "sigma1_sigma2": 1.6421317392504482,
+    "participation_ratio": 1129.9765625,
+    "stable_rank": 93.3353048587002,
+    "n_layers_effective": 5693.29052734375,
+    "column_norm_entropy": 8.310436248779297
+   },
+   "down_proj": {
+    "top1_energy": 0.004415275411222474,
+    "sigma1_sigma2": 1.4040925366677208,
+    "participation_ratio": 1834.4091796875,
+    "stable_rank": 226.48643784672228,
+    "n_layers_effective": 12889.0537109375,
+    "column_norm_entropy": 9.158723831176758
+   }
+  }
+ },
+ "unembed": {
+  "mean_row_norm": 1.097372055053711,
+  "std_row_norm": 0.17187975347042084,
+  "gini_row_norm": 0.07508722692728043,
+  "mean_norm_refusal_rows": 1.05303127850805,
+  "mean_norm_compliance_rows": 1.0315983082566942,
+  "norm_focus_refusal": 0.019531179195470566,
+  "n_refusal_rows": 14,
+  "n_compliance_rows": 14
+ },
+ "seconds": 180.69663166999817
+}

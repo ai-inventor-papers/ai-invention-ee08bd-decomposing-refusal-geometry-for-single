@@ -1,0 +1,6 @@
+entries:
+  - path: results/activations/
+    keep: raw [60, L+1, d] residual streams + decision logits for 10 models; lets later pipeline steps run wider metric searches without re-running extraction (~40 min CPU per rebuild)
+  - path: .venv/
+    delete: regenerable
+    source: "uv sync (pinned deps in pyproject.toml)"

@@ -1,0 +1,113 @@
+{
+ "spec_version": 2,
+ "metrics": {
+  "activation_anisotropy_harmful_minus_benign": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 1
+  },
+  "attention_entropy_shift_harmful_vs_benign": {
+   "family": "attention",
+   "reads": "attention maps",
+   "single_model": true,
+   "rank": 9
+  },
+  "cross_prompt_dispersion_ratio": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 11
+  },
+  "cv_linear_probe_auc": {
+   "family": "supervised_probe_baseline",
+   "reads": "hidden states + labels (supervised)",
+   "single_model": false,
+   "rank": 17
+  },
+  "dual_use_probe_auc": {
+   "family": "supervised_probe_baseline",
+   "reads": "hidden states + labels (supervised)",
+   "single_model": false,
+   "rank": 18
+  },
+  "eff_rank_per_layer": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 6
+  },
+  "first_token_margin_harmful_vs_benign": {
+   "family": "logit_only_baseline",
+   "reads": "next-token logits (teacher-forced)",
+   "single_model": true,
+   "rank": 7
+  },
+  "layer_argmax_separation": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 4
+  },
+  "logit_entropy_at_refusal_decision": {
+   "family": "logit_only_baseline",
+   "reads": "next-token logits (teacher-forced)",
+   "single_model": true,
+   "rank": 8
+  },
+  "mean_cos_to_refusal_dir": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 12
+  },
+  "norm_trajectory_harmful_minus_benign": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 16
+  },
+  "participation_ratio_per_layer": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 5
+  },
+  "rank_drop_harmful_minus_benign": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 3
+  },
+  "refusal_dir_alignment_gap": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 2
+  },
+  "spectral_energy_top1": {
+   "family": "activation_geometry",
+   "reads": "hidden states (last prompt token, all layers)",
+   "single_model": true,
+   "rank": 13
+  },
+  "spectral_gap_attn_out": {
+   "family": "weight_spectral",
+   "reads": "weights (o_proj SVD)",
+   "single_model": true,
+   "rank": 10
+  },
+  "top1_sv_energy_ratio_o_proj": {
+   "family": "weight_spectral",
+   "reads": "weights (o_proj SVD)",
+   "single_model": true,
+   "rank": 15
+  },
+  "weight_row_norm_gini_o_proj": {
+   "family": "weight_spectral",
+   "reads": "weights (o_proj SVD)",
+   "single_model": true,
+   "rank": 14
+  }
+ }
+}

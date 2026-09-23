@@ -1,0 +1,22 @@
+{
+ "activation_anisotropy_harmful_minus_benign": {
+  "recomputed_d": 4.9508,
+  "claimed_d": 4.950844,
+  "d_match": true,
+  "recomputed_auroc": 1.0,
+  "claimed_auroc": 1.0,
+  "mannwhitney_p": 0.03571428571428571,
+  "placebo_p_two_sided": 0.023,
+  "placebo_passes": true
+ },
+ "refusal_dir_alignment_gap": {
+  "recomputed_d": 3.8218,
+  "claimed_d": 3.821822,
+  "d_match": true,
+  "recomputed_auroc": 1.0,
+  "claimed_auroc": 1.0,
+  "mannwhitney_p": 0.03571428571428571,
+  "placebo_p_two_sided": 0.0,
+  "placebo_passes": true
+ }
+}
