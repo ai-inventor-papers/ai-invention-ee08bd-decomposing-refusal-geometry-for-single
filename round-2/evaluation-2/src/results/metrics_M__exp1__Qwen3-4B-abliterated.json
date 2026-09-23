@@ -1,0 +1,23 @@
+{
+  "metrics": {
+    "M1_effrank_harm_midlate": 1.7576353272046332,
+    "M2_effrank_ben_midlate": 1.7537684725580283,
+    "M3_effrank_ratio_hb": 1.002204882631263,
+    "M4_rot_coh_harm_midlate": 0.9032352145187388,
+    "M5_rot_coh_ben_midlate": 0.9047922378645006,
+    "M6_rot_coh_diff": -0.0015570233457617988,
+    "M7_coupling_product": 0.46536244788000314,
+    "M8_coupling_corr": 0.7790875889001523,
+    "M9_cluster_sep_midlate": 16.927853539647728,
+    "M9b_cluster_sep_max": 30.04512678908721,
+    "M10_norm_ratio_midlate": 1.007180787508056,
+    "M10b_norm_dip_depth": 0.05098293372032614,
+    "M11_logit_margin_harm": -13.779296875,
+    "M11b_logit_margin_hb": -0.470703125,
+    "M12_entropy_harm": 0.24901138246059418,
+    "M13_pc_cosine_midlate": 0.9973031659669674,
+    "M14_attent_entropy_midlate": 1.3944304592441767,
+    "M15_probe_auroc_max": 0.9560546875,
+    "M15b_probe_auroc_midlate": 0.93365478515625
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "n_models": 14,
+  "headline_M4_rho_judge_B3": {
+    "hand_rolled": -0.7509434625296922,
+    "pandas": -0.7509434625296927,
+    "eval_out_value": -0.7509434625296927
+  },
+  "headline_placebo_frac_p_below_0p05": 0.05,
+  "headline_placebo_expect_fail": true,
+  "headline_p_perm_seed12345_n5000": 0.0038,
+  "best_internal_M10_rho": 0.6928347422148945,
+  "best_logit_M11b_rho": 0.3799416328275228,
+  "delta_rho": 0.3128931093873717,
+  "mean_kappa_sklearn": 0.1978484624163672,
+  "auroc_M10_within_family": 0.5333333333333333,
+  "anchor_M4_rho_n7": -0.8108437164260021,
+  "anchor_sd_ratio": 0.9750504318782078,
+  "anchor_sd_ratio_alt": 0.9750504319077565,
+  "mmlu_M4_rho_n7": -0.6428571428571423,
+  "checks": {
+    "M4_rho_reproduced": true,
+    "placebo_fails_as_expected": true,
+    "delta_rho_reproduced": true,
+    "anchor_M4_reproduced": true,
+    "mmlu_M4_reproduced": true
+  },
+  "all_passed": true
+}

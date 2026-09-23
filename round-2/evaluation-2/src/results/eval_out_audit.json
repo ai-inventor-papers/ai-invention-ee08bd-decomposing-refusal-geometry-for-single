@@ -1,0 +1,194 @@
+{
+  "permutation_tests": [
+    {
+      "metric": "M10_norm_ratio_midlate",
+      "rho": 0.692834742214895,
+      "p": 0.0076,
+      "p_bh": 0.048133333333333334,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M13_pc_cosine_midlate",
+      "rho": 0.5788522523666381,
+      "p": 0.0286,
+      "p_bh": 0.13585,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M14_attent_entropy_midlate",
+      "rho": 0.5073338273638103,
+      "p": 0.0646,
+      "p_bh": 0.20456666666666667,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M8_coupling_corr",
+      "rho": 0.47157461486239627,
+      "p": 0.0892,
+      "p_bh": 0.24211428571428573,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M9_cluster_sep_midlate",
+      "rho": 0.4425202547049975,
+      "p": 0.1096,
+      "p_bh": 0.2453111111111111,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M11b_logit_margin_hb",
+      "rho": 0.37994163282752313,
+      "p": 0.1794,
+      "p_bh": 0.30987272727272724,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M9b_cluster_sep_max",
+      "rho": 0.25254943829123594,
+      "p": 0.3804,
+      "p_bh": 0.5122875,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M2_effrank_ben_midlate",
+      "rho": 0.2458445859472208,
+      "p": 0.415,
+      "p_bh": 0.5122875,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M1_effrank_harm_midlate",
+      "rho": 0.21455527500848362,
+      "p": 0.4714,
+      "p_bh": 0.5268588235294117,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M11_logit_margin_harm",
+      "rho": 0.011174753906691856,
+      "p": 0.9726,
+      "p_bh": 0.9726000000000001,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M3_effrank_ratio_hb",
+      "rho": -0.17656111172573133,
+      "p": 0.5512,
+      "p_bh": 0.5818222222222222,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M7_coupling_product",
+      "rho": -0.23019993047785223,
+      "p": 0.4314,
+      "p_bh": 0.5122875,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M5_rot_coh_ben_midlate",
+      "rho": -0.2592542906352511,
+      "p": 0.3696,
+      "p_bh": 0.5122875,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M15_probe_auroc_max",
+      "rho": -0.2947282645919499,
+      "p": 0.2956,
+      "p_bh": 0.4680333333333333,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M10b_norm_dip_depth",
+      "rho": -0.4134658945475987,
+      "p": 0.1414,
+      "p_bh": 0.26866,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M15b_probe_auroc_midlate",
+      "rho": -0.43134550079830564,
+      "p": 0.1162,
+      "p_bh": 0.2453111111111111,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M6_rot_coh_diff",
+      "rho": -0.5140386797078254,
+      "p": 0.0616,
+      "p_bh": 0.20456666666666667,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M4_rot_coh_harm_midlate",
+      "rho": -0.7509434625296927,
+      "p": 0.004,
+      "p_bh": 0.038,
+      "n_shuffles": 5000,
+      "seed": 12345
+    },
+    {
+      "metric": "M12_entropy_harm",
+      "rho": -0.8001123797191368,
+      "p": 0.0006,
+      "p_bh": 0.011399999999999999,
+      "n_shuffles": 5000,
+      "seed": 12345
+    }
+  ],
+  "bootstrap": {
+    "n_boot": 1000,
+    "seed": 17
+  },
+  "judge": {
+    "model": "google/gemini-2.5-flash-lite",
+    "n_calls_planned": 840,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "vote": "majority3",
+    "cost_usd": 0.0139
+  },
+  "kappa_per_model": {
+    "Qwen/Qwen2.5-3B-Instruct": 0.8275862068965515,
+    "Qwen/Qwen3-1.7B-Base": 0.07142857142857141,
+    "Qwen/Qwen3-1.7B": 0.02061855670103087,
+    "Qwen/Qwen3-4B-Base": 0.10000000000000009,
+    "Qwen/Qwen3-4B-Instruct-2507": 0.2105263157894737,
+    "Qwen/Qwen3-4B-SafeRL": -0.115702479338843,
+    "Qwen/Qwen3-4B": 0.06278026905829583,
+    "google/gemma-2-2b-it": 0.857142857142857,
+    "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated": 0.14062500000000003,
+    "huihui-ai/Llama-3.2-3B-Instruct-abliterated": 0.19642857142857148,
+    "huihui-ai/Qwen2.5-3B-Instruct-abliterated-SFT": 0.15384615384615388,
+    "mlabonne/Qwen3-4B-abliterated": 0.06278026905829583,
+    "meta-llama/Llama-3.2-3B-Instruct": 0.1818181818181818,
+    "ops-malware/smollm2-1.7b-abliterated": 0.0
+  },
+  "anchor_note": "Abliterated models have no published refusal rate; absent by design (a source of range restriction), never fabricated.",
+  "thinking_truncated_flagged": [
+    "Qwen/Qwen3-1.7B",
+    "Qwen/Qwen3-4B",
+    "Qwen/Qwen3-4B-SafeRL",
+    "mlabonne/Qwen3-4B-abliterated"
+  ]
+}
