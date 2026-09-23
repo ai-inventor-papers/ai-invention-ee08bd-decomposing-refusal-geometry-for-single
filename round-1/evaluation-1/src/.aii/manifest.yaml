@@ -1,0 +1,7 @@
+entries:
+  - path: .venv/
+    delete: regenerable
+    source: "uv venv .venv && uv pip install --python .venv/bin/python torch transformers numpy scipy scikit-learn pandas loguru"
+  - path: __pycache__/
+    delete: regenerable
+    source: "auto-generated Python bytecode caches (.venv/bin/python *.py)"
